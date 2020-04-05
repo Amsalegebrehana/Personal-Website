@@ -1,0 +1,13 @@
+.nav{
+    padding: 1rem;
+}
+/*profile*/
+#profile{
+    text-align: center;
+    position: relative;
+    padding: 30px 10px;
+
+}
+.portrait{
+    border-radius: 50%;
+}
