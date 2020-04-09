@@ -7,118 +7,173 @@
     <link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/Style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
+
     <title>Gallery / Amsale Gebrehana</title>
 </head>
 <body >
     <!-- Navigation -->
-<nav class="nav navbar navbar-expand-md navbar-light bg-light sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand" href=""></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsve">
-            <span class="navbar-toggler-icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="blog.html" target="_blank">Blog</a>    
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="gallery.html" target="_blank">GALLERY</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="aboutcontact.html" target="_blank">ABOUT / CONTACT</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-                  </li>
-            </ul>
-    </div>
-    </div>
-    
-    <!-- This is the first step -->
-    <table cellspacing="10">
-        <tr>
-            <td>
-                <figure>
-                    <img src="./asset/image/youthmappers.jpg" alt="Youth mappers partticipation" width="350" height="400">
-                    <figcaption>Youth mappers partticipation </figcaption>
-                </figure>
-                
-            </td>
-            <td>
-                <figure>
-                    <img src="./asset/image/dev.jpg" alt="Devfets participation" width="350" height="400">
-                    <figcaption>Devfets participation </figcaption>
-                </figure>
-                
-            </td>
-            
-            <td>
-                <figure>
-                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="code" width="350" height="400">
-                    <figcaption>Code </figcaption>
-                </figure>
-                
-            </td>
-            
-        </tr>
-        
-        <tr>
-            <td>
-                <figure>
-                    <img src="./asset/image/Moments.jpg" alt="Moments" width="350" height="400">
-                    <figcaption>Moments </figcaption>
-                </figure>
-                
-            </td>
-            <td>
-                <figure>
-                    <img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg" alt="A book" width="350" height="400">
-                    <figcaption>Reading on Nature-grass-leaf-green </figcaption>
-                </figure>
-            </td>
-           
-            <td>
-                <figure>
-                    <img src="https://images.pexels.com/photos/1666320/pexels-photo-1666320.jpeg" alt="Books i read" width="350" height="400">
-                    <figcaption>Best books I read. </figcaption>
-                </figure>
-                
-            </td>
-        </tr>
-        
-        <tr>
-            <td>
-                <figure>
-                    <img src="./asset/image/esss.jpg" alt="ESSS women Volunteers" width="350" height="400">
-                    <figcaption>Ethiopian Space Science Society women Volunteers </figcaption>
-                </figure>
-                    
-            </td>
-            <td>
-                <figure>
-                    <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg" alt="Night" width="350" height="400">
-                    <figcaption>Night working </figcaption>
-                </figure>
-                    
-            </td>
-            
-            <td>
-                <figure>
-                     <img src="https://images.pexels.com/photos/3573603/pexels-photo-3573603.jpeg" alt="Natural phenomena" width="350" height="400">
-                    <figcaption>Natural View </figcaption>
-                </figure>
+    <nav class="nav navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Amsale Gebrehana</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsve">
+                <span class="navbar-toggler-icon">
                    
-            </td>
-        </tr>
-
-    </table>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="blog.html" target="_blank">Blog</a>    
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="gallery.html" target="_blank">GALLERY</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="aboutcontact.html" target="_blank">ABOUT / CONTACT</a>
+                    </li>
+                   
+                    <li class="nav-item active">
+                        <a class="nav-link js-search" href="#">
+                            <i class="fa fa-search" aria-hidden="true"></i></a>
+                      </li>
+                    <li class="nav-item active">
+                        <a class="nav-link dark-mode js-dark-toggle" href="index.html">
+                            <i class="fa fa-moon"></i>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+      </div>
+</nav>
+    <!-- This is the first step -->
+    <section class="gallery">
+        <div class="gallery-title">
+            <h3>Portfolios</h3>
+            <div class="inside-gall">
+                <div class="btn-group " >
+                    <button type="button" class="btn btn-primary active">all</button>
+                    <button type="button" class="btn btn-primary btn-lg">software</button>
+                    <button type="button" class="btn btn-primary btn-lg">course</button>
+                    <button type="button" class="btn btn-primary btn-lg">books</button>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="row ">
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  href="https://www.youthmappers.org/blog/tag/Ethiopia">
+                    <img src="./assets/image/youthmappers.jpg" alt="Youth mappers partticipation" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Youth mappers partticipation </p>
+                    
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  href="https://www.gdgaddis.dev/">
+                    <img src="./assets/image/dev.jpg" alt="Devfets participation" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Devfets participation </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  href="/w3images/fjords.jpg">
+                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="code" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Code </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+    
+        <div class="row ">
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  href="https://www.youthmappers.org/blog/tag/Ethiopia">
+                    <img src="https://images.pexels.com/photos/355938/pexels-photo-355938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Space Ship" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Space Shuttle about to take Off </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a   href="https://www.gdgaddis.dev/">
+                    <img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg" alt="A book" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Reading on Nature-grass-leaf-green </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  href="/w3images/fjords.jpg">
+                    <img src="https://images.pexels.com/photos/1666320/pexels-photo-1666320.jpeg" alt="Books i read" width="350" height="300">
+                   
+                  <div class="caption">
+                    <p>Best books I read. </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
    
-   
-    <hr>
-    <p align="center" > Developed by Amsale G.&copy;</p>
-
+        <div class="row ">
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  href="https://www.youthmappers.org/blog/tag/Ethiopia">
+                    <img src="./assets/image/esss.jpg" alt="ESSS women Volunteers" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Ethiopian Space Science Society women Volunteers </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay">
+                <a  class="hover-overlay" href="https://www.gdgaddis.dev/">
+                    <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg" alt="Night" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Night working </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail effect hover-overlay" class="effect hover-overlay">
+                <a  href="/w3images/fjords.jpg" >
+                    <img src="https://images.pexels.com/photos/3573603/pexels-photo-3573603.jpeg" alt="Natural phenomena" width="350" height="300">
+                    
+                  <div class="caption">
+                    <p>Natural View </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+    </section>
+                     
+            
+                    
+                
+    
 </body>
 </html>

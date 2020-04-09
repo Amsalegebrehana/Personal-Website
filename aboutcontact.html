@@ -16,7 +16,7 @@
     <!-- Navigation -->
 <nav class="nav navbar navbar-expand-md navbar-light bg-light fixed-top">
     <div class="container-fluid">
-        <a class="navbar-brand" href=""></a>
+        <a class="navbar-brand" href="index.html">Amsale Gebrehana</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsve">
             <span class="navbar-toggler-icon">
                
@@ -65,27 +65,29 @@
             <div class="row">
                 <div class="col-lg-12 paragraphs">
                     <p>I am from Addis Ababa, Ethiopia, and I am a second year student in <a href="http://www.aau.edu.et/aait/"> Addis Ababa Institute Of Technology</a>. 
-                        In High school I was one of compitative kids and pay attenstion in the class. My friends and I myself spend our time together.
-                        After completing high school I decied to study Engineering and I joined <a href="http://www.aau.edu.et/">Addis Ababa University</a>, Addis Ababa Institute Of Technology. And After
-                        pre-Engineering programs that the university gave us I originally had no 
-                        idea what I am going into study. After some reasearch and my interest ,I choose to study Software Engineering even though it is not easy I am so happy that I made a decision.
+                        In high school I was one of compitative kids and pay attenstion in the class room. My friends and I myself spend our time together.
+                        After completing high school I decied to study Engineering and I joined <a href="http://www.aau.edu.et/">Addis Ababa University</a>, <a href="http://www.aau.edu.et/aait/"> Addis Ababa Institute Of Technology</a>. And after
+                       <a href="http://www.aait.edu.et/pre-engineering-school">pre-engineering</a> programs that the university gave us I originally had no 
+                        idea what I was going into study. After some research I decided to study <a href="
+                        http://www.aau.edu.et/offices/v_president-office/office-of-the-academic-vise-president/undergraduate-programs-office/undergraduate-programs/addis-ababa-university-institute-of-tecnology/software-engineering/ ">
+                        Software engineering</a> even though it is not easy I am so happy that I made a decision.
                         and I am now a second year student. 
                         </p>
                     <p>
-                        <img class="image" src="https://images.pexels.com/photos/1002654/pexels-photo-1002654.jpeg" 
-                        alt="Reading moments" width="350" height="400">
+                      <img  class="image" src="./assets/image/esss.jpg" alt="ESSS women Volunteers" width="400" height="350">
                     </p>
                     
                 
                     <p>
-                        I am now participating in different areas specally that are related to my subject of study. I am a volunteer at <a href="https://www.ethiosss.org/" >Ethiopian Space Science Society participation</a>.
-                         And I recently apply to be a volunteer in <a href="https://www.un.org/en/">United Nation Organization</a>. The Benefits of Volunteering People volunteer for a wide variety of reasons, especially wanting to 
+                        I am participating in different fields of Volunteering especially that are related to my subject of study. I am a volunteer at <a href="https://www.ethiosss.org/" >Ethiopian Space Science Society</a>.
+                         And I recently apply to be a volunteer in <a href="https://www.un.org/en/">United Nation Organization</a>. The Benefits of Volunteering People volunteer including myself 
+                         for a wide variety of reasons, particularly wanting to 
                         help others. Some people are uncomfortable with the notion that a volunteer "benefits" from doing volunteer work. Traditionally, 
                         volunteer work is seen as a form of charity based on unselfishness and altruism. 
                     </p> 
                  <p>
                     <img class="image" src="./assets/image/youthmappers.jpg"
-                     alt="Night" width="350" height="400">
+                     alt="Night" width="400" height="350">
                  </p>
                     
                
@@ -98,7 +100,7 @@
                          With all I already have, I know that I’m on the right path and 
                         I will do my best to inspire others to live the way they feel like living as well. 
                         <br>
-                        You can follow my current work on GitHub. In my free time, I love spending time 
+                        You can follow my current work on <a href="https://github.com/Amsalegebrehana?tab=repositories">GitHub</a>. In my free time, I love spending time 
                         with my family and my friends. Thank you so much for your attension and time.
                     </p>
                 </div>
@@ -249,7 +251,7 @@
             <div class="card">
               <div class="card-body">
                 <h4 class="card-title detail-exp text-muted mt-0 mb-1">Event Orginizer</h4>
-                <h4 class="card-title exp-inside text-muted my-0"><a href="https://www.ohsu.edu/" target="_blank" rel="noopener">Social Related and Religious Events</a></h4>
+                <h4 class="card-title exp-inside text-muted my-0"><a href="https://www.ohsu.edu/" target="_blank" rel="noopener"> community service and Religious Events</a></h4>
                 <h5 class="exp-date">  October 2015 – May 2017 Addis Ababa, Ethiopia </h5>
                 <div class="card-text"></div>
               </div>
@@ -277,22 +279,29 @@
     
         </div>
     </section>
-    <section>
+    <section class="contact">
         <div class="container">
       
-            <div class="row contact-widget mini">
-              <div class="col-12 col-lg-4 section-heading">
+            <div class="row contact-widget ">
+              <div class="col-12 col-lg-4 exp-head">
                 <h1>Hi there!</h1>
                 
               </div>
               <div class="col-12 col-lg-8">
                
-                <div class="mb-3">
+                <div class="mb-3 forms">
                   <form name="contact" method="POST" action="https://formspree.io/alison@rstudio.com">
                     <div class="form-group form-inline">
                       <label class="sr-only" for="inputName">Name</label>
-                      <input type="text" name="name" class="form-control w-100" id="inputName" placeholder="Name" required="">
+                      <input type="text" id="fname" class="form-control w-100" name="name" required placeholder="Name"
+                      pattern="[A-Za-z]{1,15}" title="1 to 15 letters">
+                  
                     </div>
+                    <div class="form-group form-inline">
+                        <label class="sr-only" for="tel">Phone No.</label>
+                        <input type="tel" name="phone no." class="form-control w-100" id="phone no." pattern="[\d]{20}" 
+                    title="Phone number must be 20 digits" placeholder="Phone number" >
+                      </div>
                     <div class="form-group form-inline">
                       <label class="sr-only" for="inputEmail">Email</label>
                       <input type="email" name="email" class="form-control w-100" id="inputEmail" placeholder="Email" required="">
@@ -301,36 +310,49 @@
                       <label class="sr-only" for="inputMessage">Message</label>
                       <textarea name="message" class="form-control" id="inputMessage" rows="5" placeholder="Message" required=""></textarea>
                     </div>
-                    <button type="submit" class="btn btn-outline-primary px-3 py-2">Send</button>
+                    <button type="submit" class="btun btn-outline-primary px-3 py-2">Send</button>
                   </form>
                 </div>
                 
-                <ul class="fa-ul" itemscope="">
+                <ul class="fa-ul">
             
                   <li>
                     <i class="fa-li fab fa-twitter fa-2x" aria-hidden="true"></i>
-                    <a href="https://twitter.com/apreshill" target="_blank" rel="noopener">DM Me</a>
+                    <a href="https://twitter.com/" target="_blank" rel="noopener">DM Me</a>
                   </li>
                   
                   <li>
                     <i class="fa-li fab fa-keybase fa-2x" aria-hidden="true"></i>
                     <a href="https://keybase.io/" target="_blank" rel="noopener">Chat on Keybase</a>
                   </li>
+                 
                   
-                  <li>
-                    <i class="fa-li fab fa-discourse fa-2x" aria-hidden="true"></i>
-                    <a href="https://community.rstudio.com/" target="_blank" rel="noopener">Discuss on RStudio Community</a>
-                  </li>
-                  
-            
                 </ul>
             
-                
-            
+              </div>
+              <div class="btm-border">
+
               </div>
             </div>
             
-                </div>
+      </div>
     </section>
-    </body>
-    </html>
+    <div class=" text-white mt-4 fixed-bottom"  style="background-color: rgb(225, 61, 61);">
+      <div class="container-fluid py-3">
+          <div class="row">
+              <div class="col-md-6">This website uses cookies to ensure you get the best experience on our website.
+                    </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-3"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss" style="background-color: aliceblue;">Got it!</a></div>
+              
+          </div>
+      </div>
+    </div>
+    
+</body>
+</html>
