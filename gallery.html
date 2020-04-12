@@ -5,58 +5,60 @@
     <link rel="icon"  type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQl7Ln8S863209pV-muQ_NTtSxdbSRTQNsouyCMQvfa806l9zqw">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"> 
     <link rel="stylesheet" href="./assets/css/Style.css">
     <link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/js/bootstrap.js">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet" />
-
+    <link rel="stylesheet" href="./assets/css/bootstrap-4.4.1-dist/js/bootstrap.js">
+    <script src="./assets/css/bootstrap-4.4.1-dist/js/bootstrap.js"></script>
+    <script src="./assets/js/Myscript.js"></script>
     <title>Gallery / Amsale Gebrehana</title>
 </head>
 <body >
     <!-- Navigation -->
     <nav class="nav navbar navbar-expand-md navbar-light bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Amsale Gebrehana</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsve">
-                <span class="navbar-toggler-icon">
-                   
-                </span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="blog.html" target="_blank">Blog</a>    
+      <div class="container-fluid">
+          <a class="navbar-brand" class="nav-hover" href="index.html">Amsale Gebrehana</a>
+          <button class="navbar-toggler toggler-example"  data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+            class="fa fa-bars fa-1x"></i></span></button>
+          <div id="navbarResponsive" class="collapse navbar-collapse" >
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="blog.html" target="_blank">Blog</a>    
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="gallery.html" target="_blank">Portfolio</a>
+                  </li>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="aboutcontact.html" target="_blank">ABOUT / CONTACT</a>
+                  </li>
+                 
+                  <li class="nav-item active">
+                      <a class="nav-link js-search" href="#">
+                          <i class="fa fa-search" aria-hidden="true"></i></a>
                     </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="gallery.html" target="_blank">GALLERY</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="aboutcontact.html" target="_blank">ABOUT / CONTACT</a>
-                    </li>
-                   
-                    <li class="nav-item active">
-                        <a class="nav-link js-search" href="#">
-                            <i class="fa fa-search" aria-hidden="true"></i></a>
-                      </li>
-                    <li class="nav-item active">
-                        <a class="nav-link dark-mode js-dark-toggle" href="index.html">
-                            <i class="fa fa-moon"></i>
-                        </a>
-                    </li>
-                </ul>
-        </div>
+                  <li class="nav-item active">
+                      <a class="nav-link dark-mode js-dark-toggle" href="index.html">
+                          <i class="fa fa-moon"></i>
+                      </a>
+                  </li>
+              </ul>
       </div>
-</nav>
+    </div>
+  </nav>
     <!-- This is the first step -->
     <section class="gallery">
         <div class="gallery-title">
             <h3>Portfolios</h3>
             <div class="inside-gall">
                 <div class="btn-group " >
-                    <button type="button" class="btn btn-primary active">all</button>
-                    <button type="button" class="btn btn-primary btn-lg">software</button>
-                    <button type="button" class="btn btn-primary btn-lg">course</button>
-                    <button type="button" class="btn btn-primary btn-lg">books</button>
+                    <a href="gallery.html" type="button" class="btn btn-primary active">all</a>
+                    <a href="gallery.html" type="button" class="btn btn-primary btn-lg">software</a>
+                    <a href="gallery.html" type="button" class="btn btn-primary btn-lg">events</a>
+                    <a href="gallery.html" type="button" class="btn btn-primary btn-lg">books</a>
                   </div>
             </div>
             
@@ -65,35 +67,41 @@
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a  href="https://www.youthmappers.org/blog/tag/Ethiopia">
-                    <img src="./assets/image/youthmappers.jpg" alt="Youth mappers partticipation" width="350" height="300">
+                    <img src="./assets/image/youthmappers.jpg" alt="Youth mappers partticipation" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Youth mappers partticipation </p>
+                    <p class="caption-title">Youth mappers participation </p>
+                    
                     
                   </div>
                 </a>
+                <p class="second-caption"> Aiming to place some places that google map do not reach on a map</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a  href="https://www.gdgaddis.dev/">
-                    <img src="./assets/image/dev.jpg" alt="Devfets participation" width="350" height="300">
+                    <img src="./assets/image/dev.jpg" alt="Devfest participation" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Devfets participation </p>
+                    <p class="caption-title">Devfest participation </p>
+                    
                   </div>
                 </a>
+                <p class="second-caption">An event orgininized by google group GDGaddis</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a  href="/w3images/fjords.jpg">
-                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="code" width="350" height="300">
+                    <img src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg" alt="code" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Code </p>
+                    <p class="caption-title">Code </p>
+                   
                   </div>
                 </a>
+                <p class="second-caption">Code in different programing language</p>
               </div>
             </div>
           </div>
@@ -102,10 +110,11 @@
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a  href="https://www.youthmappers.org/blog/tag/Ethiopia">
-                    <img src="https://images.pexels.com/photos/355938/pexels-photo-355938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Space Ship" width="350" height="300">
+                    <img src="https://images.pexels.com/photos/355938/pexels-photo-355938.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Space Ship" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Space Shuttle about to take Off </p>
+                    <p class="caption-title">Space Shuttle about to take Off </p>
+                    <p></p>
                   </div>
                 </a>
               </div>
@@ -113,23 +122,27 @@
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a   href="https://www.gdgaddis.dev/">
-                    <img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg" alt="A book" width="350" height="300">
+                    <img src="https://images.pexels.com/photos/5834/nature-grass-leaf-green.jpg" alt="A book" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Reading on Nature-grass-leaf-green </p>
+                    <p class="caption-title">Reading on Nature-grass-leaf-green </p>
+                    
                   </div>
                 </a>
+                <p class="second-caption">Green areas brings me good feelings and plus reading </p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a  href="/w3images/fjords.jpg">
-                    <img src="https://images.pexels.com/photos/1666320/pexels-photo-1666320.jpeg" alt="Books i read" width="350" height="300">
+                    <img src="https://images.pexels.com/photos/1666320/pexels-photo-1666320.jpeg" alt="Books i read" width="350" height="250">
                    
                   <div class="caption">
-                    <p>Best books I read. </p>
+                    <p class="caption-title">Best books I read. </p>
+                    
                   </div>
                 </a>
+                <p class="second-caption">This are the books that I read and like</p>
               </div>
             </div>
           </div>
@@ -137,40 +150,89 @@
         <div class="row ">
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
-                <a  href="https://www.youthmappers.org/blog/tag/Ethiopia">
-                    <img src="./assets/image/esss.jpg" alt="ESSS women Volunteers" width="350" height="300">
+                <a  href="https://www.ethiosss.org/">
+                    <img src="./assets/image/esss.jpg" alt="ESSS women Volunteers" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Ethiopian Space Science Society women Volunteers </p>
+                    <p class="caption-title">Ethiopian Space Science Society women Volunteers </p>
+                    
                   </div>
                 </a>
+                <p class="second-caption">It is a Society that aims to address and teach about space Science for the people</p> 
               </div>
             </div>
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay">
                 <a  class="hover-overlay" href="https://www.gdgaddis.dev/">
-                    <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg" alt="Night" width="350" height="300">
+                    <img src="https://images.pexels.com/photos/669996/pexels-photo-669996.jpeg" alt="Night" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Night working </p>
+                    <p class="caption-title">Night working </p>
+                    
                   </div>
                 </a>
+                <p class="second-caption">Working at Night in home is the best way to study and work on projects</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="thumbnail effect hover-overlay" class="effect hover-overlay">
                 <a  href="/w3images/fjords.jpg" >
-                    <img src="https://images.pexels.com/photos/3573603/pexels-photo-3573603.jpeg" alt="Natural phenomena" width="350" height="300">
+                    <img src="https://images.pexels.com/photos/3573603/pexels-photo-3573603.jpeg" alt="Natural phenomena" width="350" height="250">
                     
                   <div class="caption">
-                    <p>Natural View </p>
+                    <p class="caption-title">Natural View </p>
+                    
                   </div>
                 </a>
+                <p class="second-caption">Light nature view</p>
               </div>
             </div>
           </div>
     </section>
-                     
+    <div class="container">
+      <footer class="site-footer text-center">
+    
+    <p class="powered-by">
+      <a href="/license/">LICENSE: CC-BY-SA <br> 
+        <i class="fab fa-creative-commons fa-2x"></i>
+        <i class="fab fa-creative-commons-by fa-2x"></i>
+        <i class="fab fa-creative-commons-sa fa-2x"></i> </a><br>
+    </p>
+    
+  
+    <p class="powered-by">
+      &copy; Developed by Amsale G.
+  
+      
+      <span class="float-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fas fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+      
+    </p>
+  </footer>
+  
+    </div>
+   
+    <div class=" text-white mt-4 fixed-bottom"  style="background-color: rgb(225, 61, 61);">
+      <div class="container-fluid py-3">
+          <div class="row">
+              <div class="col-md-6">This website uses cookies to ensure you get the best experience on our website.
+                    </div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+              <div class="col-md-3"></div>
+          </div>
+          <div class="row">
+              <div class="col-md-6"></div>
+              <div class="col-md-3"><a aria-label="dismiss cookie message" role="button" tabindex="0" class="cc-btn cc-dismiss" style="background-color: aliceblue;">Got it!</a></div>
+              
+          </div>
+      </div>
+    </div>                  
             
                     
                 
