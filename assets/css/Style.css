@@ -3,14 +3,15 @@
 body{
     background-color:#fbf9f4;
 }
-
+nav{
+    background-color:white;
+}
 .content-in {
    margin-top: 5%;
    padding: 5%;
 }
-.navbar-light{
-    box-shadow: none;
-}
+
+
 #navbarResponsive{
     font-size: 1.0em;
     padding-right: 15%;
@@ -19,9 +20,10 @@ body{
    text-transform: uppercase;
    
 }
-.nav .container-fluid a{
+.nav a{
+    color: black;
     font-size: 1.05em;
-    padding-left: 7%;
+    padding-left: 5em;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 500;
    text-transform: uppercase;
@@ -30,12 +32,12 @@ body{
     padding-bottom: 1.5%;
     border-bottom: solid 2px rgb(225, 61, 61);
 }
-.nav .container-fluid #navbarResponsive ul li a:hover{
+.nav #navbarResponsive ul li a:hover{
     color: rgb(207, 32, 32);   
 }
 
 
-.nav .container-fluid a:hover{
+.nav .navbar-brand:hover{
     color: rgb(207, 32, 32);  
 }
 
@@ -48,6 +50,9 @@ body{
 }
 .image{
     width: 100%;
+}
+.pro-name h4 a{
+    color: rgb(207, 32, 32);  
 }
 .pro-name h4{
     color: rgb(170, 167, 167);
@@ -81,6 +86,9 @@ p{
 p a{
     color: rgb(225, 61, 61);
 }
+p a:hover{
+    color: rgb(225, 61, 61);
+}
 .row .drop h4{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(110, 106, 106);
@@ -90,7 +98,7 @@ p a{
 .row .drop ul{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(110, 106, 106);
-    font-size: 1.08em; 
+    font-size: 1.01em; 
 
 }
 .row .drop dt{
@@ -117,12 +125,12 @@ p a{
 .sec-blur{
     padding-top: 5%;
 }
-.blured{
+.blured p{
     text-transform: uppercase;
-    color: rgb(247, 247, 247);
+    color: rgb(189, 184, 184);
     font-size: 1.20em;
     
-    font-weight: 450;
+    font-weight: 480;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
@@ -145,10 +153,20 @@ p a{
    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    font-weight: 450;
 }
+.see-post a{
+    color: rgb(225, 61, 61);
+}
+.see-post a:hover{
+    color: rgb(225, 61, 61);
+}
 .date{
     color: rgb(182, 182, 182);
     font-size: .96em;
     font-weight: 400;
+}
+.carousel .carousel-inner .carousel-item img{
+    width: 100%;
+    height: 325px;
 }
 /* About me page*/
 #about-pic{
@@ -219,6 +237,9 @@ p a{
 .exp-fill{
     background-color: rgb(225, 61, 61);
 }
+.border-right{
+    border-color: rgb(225, 61, 61);
+}
 .get-touch{
     padding: 7%;
 }
@@ -240,7 +261,7 @@ p a{
     padding-bottom: 8%;
     border-bottom: 1px solid rgb(225, 61, 61);
 }
-.btun{
+.contact .container .btun{
     padding: 50%;
     font-size: .84em;
     font-style: italic;
@@ -249,16 +270,22 @@ p a{
     height: 2em;
     background-color: white;
 }
-.btun:hover{
+.contact .container .btun:hover{
     border-color:  rgb(225, 61, 61);
     color:  rgb(245, 244, 244);
     background-color: rgb(225, 61, 61);
 }
-.btm-border{
+.contact .container .btm-border{
     margin-left: 25%;
     margin-right: 25%;
     border-top: solid 1px rgb(225, 61, 61);
     padding-bottom: 34%;
+}
+.contact .container .fa-lu li a{
+    color: rgb(225, 61, 61);
+}
+.contact .container .fa-lu li a:hover{
+    color: rgb(225, 61, 61);
 }
 /*galery*/
 .gallery{
@@ -301,6 +328,7 @@ p a{
     border-color:rgb(225, 61, 61) ;
 }
 .gallery a img{
+   
     background-color: transparent;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
     box-sizing: border-box;
@@ -332,4 +360,18 @@ p a{
 /*footer*/
 .site-footer{
     margin-top: 5%;
+}
+.fixed-bottom .container-fluid .row .text-white{
+    font-size: .99em;
+    
+    font-weight: 400;
+    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.fixed-bottom .container-fluid .row .got-btn a{
+    background-color: white;
+    color: black;
+    border-color: white;
+    width: 120px;
+    margin-right: 1%;
 }
