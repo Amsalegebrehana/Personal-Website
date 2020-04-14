@@ -98,8 +98,8 @@ p a:hover{
 .row .drop ul{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(110, 106, 106);
-    font-size: 1.01em; 
-
+    font-size: .91em; 
+    font-weight: 300;
 }
 .row .drop dt{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -167,6 +167,28 @@ p a:hover{
 .carousel .carousel-inner .carousel-item img{
     width: 100%;
     height: 325px;
+    background-color: rgb(64, 64, 64);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ;
+}
+.carousel .carousel-inner .carousel-item h1{
+    padding-top: 2%;
+    text-transform: Capitalize;
+    font-size: 2.69em;
+    font-family: Arapey,sans-serif;
+    font-weight: 200;
+    line-height: 1;
+}
+.carousel .carousel-inner .carousel-item p{
+    padding-top: 2%;
+    color: white;
+    margin: 0 auto 0 auto;
+    font-size: 1.50em;
+    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 300;
+}
+.carousel .carousel-inner .carousel-item p a{
+    color: rgb(225, 61, 61);
+    font-style: italic;
 }
 /* About me page*/
 #about-pic{
@@ -374,4 +396,59 @@ p a:hover{
     border-color: white;
     width: 120px;
     margin-right: 1%;
+}
+.content-in .container-fluid .row .dory-name h2{
+    font-size: 1.555em;
+    color: rgb(51, 49, 49);;
+    font-weight: 400;
+    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.content-in .container-fluid .description{
+    padding-top: 5%;
+}.content-in .container-fluid .row .img-check{
+    margin-right: 2%;
+}
+/* Styles for wrapping the search box */
+
+.main {
+    width: 100%;
+    margin: 20px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+.search{
+    background-color: rgb(245, 244, 244);
+}
+.search-area{
+    margin-top: 7%;
+    margin-left: 3%;
+}
+.search-text h1{
+    font-size: 2em;
+    color: rgb(51, 49, 49);;
+    font-weight: 300;
+    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.sign a i{
+    padding-left: 90%;
+    font-size: 2rem;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.search-area .main .input-group input{
+   border-radius: 10em;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
 }
