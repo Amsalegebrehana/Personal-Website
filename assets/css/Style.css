@@ -8,7 +8,7 @@ nav{
 }
 .content-in {
    margin-top: 8%;
-   padding: 3% 8% 3% 15%;
+   padding: 3% 8% 3% 13%;
 }
 
 
@@ -16,30 +16,31 @@ nav{
     font-size: 1.05em;
     padding-right: 15%;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-weight: 450;
-   text-transform: uppercase;
-   padding-top: 2%;
+    font-weight: 450;
+    text-transform: uppercase;
+    padding-top: 2%;
    
 }
 .nav a{
-    color: rgba(55, 65, 75, 0.85);
+    color: rgba(41, 45, 49, 0.85);
     font-size: 1.11em;
-    padding-left: 5em;
+    padding-left: 6em;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    text-transform: uppercase;
+   font-weight: 500;
 }
 .navbar-nav{
     padding-bottom: 1.5%;
     
 }
 .nav #navbarResponsive ul li a:hover{
-    color: rgb(39, 75, 51); 
+    color: rgb(48, 114, 69); 
     text-decoration: underline;  
 }
 
 
 .nav .navbar-brand:hover{
-    color: rgb(23, 49, 32);   
+    color: rgb(31, 66, 43);   
 } 
 
 
@@ -54,7 +55,7 @@ nav{
     width: 100%;
 }
 .pro-name h4 a{
-    color: #06805e;  
+    color: #0f8b68;  
 }
 .pro-name h4{
     color: rgb(92, 91, 91);
@@ -64,7 +65,7 @@ nav{
     margin: 20px 0 10px;
 }
 a{
-    color:#06805e;
+    color:#069169;
 }
 a:hover{
     color:#06805e;
@@ -93,73 +94,84 @@ p a:hover{
 }
 .row .drop h4{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(110, 106, 106);
-    font-size: 1.3em; 
+    color: rgb(53, 52, 52);
+    padding-top: 10%;
+    font-size: 1.66em; 
+    font-weight: 450;
 
 }
 .row .drop ul{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(110, 106, 106);
-    font-size: .91em; 
-    font-weight: 300;
+    color:  rgb(71, 71, 71);
+    font-size: 1.20em; 
+    font-weight: 400;
 }
 .row .drop dt{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(102, 102, 102);
-    font-size: 1.01em; 
-    font-weight: 350;
+    color:  rgb(71, 71, 71);
+    font-size: 1.21em; 
+    font-weight: 450;
 
 }
 .row .drop dd{
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(155, 153, 153);
-    font-size: .9em; 
+    color:  rgb(114, 112, 112);
+    font-size: 0.8em; 
+    padding: 2%;
 
 }
 #lately{
     
-    color: rgb(94, 92, 92);
-    font-size: 1.85em;
-    font-weight: 350;
+    color: rgb(63, 62, 62);
+    font-size: 2.51em;
+    font-weight: 450;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 5%;
 }
 .sec-blur{
-    padding-top: 5%;
+    padding: 5% 15% 3% 15%;
+    
+    
 }
 .blured p{
     text-transform: uppercase;
-    color: rgb(189, 184, 184);
-    font-size: 1.20em;
-    
+    color: rgb(29, 94, 61);
+    font-size: 1.330em;
+    padding-left: 15%;
     font-weight: 480;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
+.blog-detail{
+    font-size: 1.00em;
+    font-weight: 500;
+    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: rgb(99, 97, 97);
+}
 .head-title a{
-    color: rgb(48, 48, 48);
-    font-size: .60em;
+    color: rgb(70, 69, 69);
+    font-size: 0.820em;
     font-weight: 450;
     text-transform: capitalize;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
 }
 .head-title a:hover{
-    color: rgb(225, 61, 61);
+    color: #06805e;
     text-decoration: none;
 }
 .see-post{
    
    text-transform: uppercase;
-   font-size: .90em;
+   font-size: 1.20em;
    font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   font-weight: 450;
+   font-weight: 480;
 }
 .see-post a{
-    color: rgb(225, 61, 61);
+    color:  #06805e;
 }
 .see-post a:hover{
-    color: rgb(225, 61, 61);
+    color: #06805e;
 }
 .date{
     color: rgb(182, 182, 182);
@@ -169,37 +181,31 @@ p a:hover{
 .carousel .carousel-inner .carousel-item img{
     width: 100%;
     height: 325px;
+    opacity: 0.8;
     background-color: rgb(64, 64, 64);
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)) ;
 }
-.carousel .carousel-inner .carousel-item h1{
-    padding-top: 2%;
-    text-transform: Capitalize;
-    font-size: 2.69em;
-    font-family: Arapey,sans-serif;
-    font-weight: 200;
-    line-height: 1;
-}
+
 .carousel .carousel-inner .carousel-item p{
     padding-top: 2%;
     color: white;
     margin: 0 auto 0 auto;
-    font-size: 1.50em;
+    font-size: 1.650em;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
 }
 .carousel .carousel-inner .carousel-item p a{
-    color: rgb(225, 61, 61);
+    color: #06805e;
     font-style: italic;
 }
 
 #about-pic{
-    margin-top: 6%;
+    margin-top: 9%;
 }
 #about-pic h1{
     color: #fbf9f4;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 2.3em;
     font-weight: 400;
 }
 .anim-section{
@@ -209,26 +215,29 @@ p a:hover{
 #about{
     margin: 0 13% 0 13% ;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-   border-bottom: solid 1px rgb(225, 61, 61);
+   
 }
 #about .image{
     width: 40%;
     margin-left: 30%;
 }
+.resume{
+    margin-top: 9%;
+}
 .part-experience{
-    margin: 0 13% 0 13% ;
+    margin: 1% 5% 0 5% ;
     padding-top: 3%;
     padding-bottom: 5%;
     
 }
 .part-experience .col .border-right{
    
-    border-color: rgb(225, 61, 61);
+    border-color:  #06805e;
 }
 .exp-head h1{
-    padding-left: 5em;
-    font-size: 1.97em;
-    font-weight: 350;
+    padding-left: 3em;
+    font-size: 2.47em;
+    font-weight: 400;
     margin: 0 0 10px;
     font-family:  apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
    
@@ -259,10 +268,10 @@ p a:hover{
 
 
 .exp-fill{
-    background-color: rgb(225, 61, 61);
+    background-color: #06805e;
 }
 .border-right{
-    border-color: rgb(225, 61, 61);
+    border-color:#06805e;
 }
 .get-touch{
     padding: 7%;
@@ -283,33 +292,33 @@ p a:hover{
     margin-right: 0.7rem;
     padding-right: 0.5rem;
     padding-bottom: 8%;
-    border-bottom: 1px solid rgb(225, 61, 61);
+    border-bottom: 1px solid#06805e;
 }
 .contact .container .btun{
     padding: 50%;
     font-size: .84em;
     font-style: italic;
-    color: rgb(225, 61, 61);
-    border: 1px solid rgb(225, 61, 61);
+    color:#06805e;
+    border: 1px solid #06805e;
     height: 2em;
     background-color: white;
 }
 .contact .container .btun:hover{
-    border-color:  rgb(225, 61, 61);
+    border-color: #06805e;
     color:  rgb(245, 244, 244);
-    background-color: rgb(225, 61, 61);
+    background-color: #06805e;
 }
 .contact .container .btm-border{
     margin-left: 25%;
     margin-right: 25%;
-    border-top: solid 1px rgb(225, 61, 61);
+    border-top: solid 1px #06805e;
     padding-bottom: 34%;
 }
 .contact .container .fa-lu li a{
-    color: rgb(225, 61, 61);
+    color:#06805e;
 }
 .contact .container .fa-lu li a:hover{
-    color: rgb(225, 61, 61);
+    color:#06805e;
 }
 .ml-3 a img{
     margin-left: 80%;
@@ -343,15 +352,15 @@ p a:hover{
 }
 
 .inside-gall .btn{
-    background-color: rgb(225, 61, 61) !important;
-    border-color:rgb(225, 61, 61) ;
+    background-color:#06805e !important;
+    border-color:#06805e ;
     font-size: .4em;
     border-radius: 0%;
     font-style: italic;
     font-family: Arapey, sans-serif;
 }
 .inside-gall .btn .active{
-    border-color:rgb(225, 61, 61) ;
+    border-color:#06805e ;
 }
 .gallery a img{
    
@@ -430,10 +439,14 @@ p a:hover{
     padding-top: 5%;
 }
 .content-in .container-fluid .btn-links a{
-    color: rgb(225, 61, 61); background-color:  white; border-color: rgb(225, 61, 61);
+    color: #06805e; 
+    background-color:  white; 
+    border-color: #06805e;
 }
 .content-in .container-fluid .btn-links a:hover{
-    color: white; background-color: rgb(225, 61, 61); border-color: rgb(225, 61, 61);
+    color: white; 
+    background-color:#06805e; 
+    border-color:#06805e;
 }
 
 
