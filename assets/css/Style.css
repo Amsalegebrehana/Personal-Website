@@ -252,13 +252,13 @@ p a:hover{
    
 }
 .detail-exp{
-    font-size: .8em;
-    color: rgb(173, 173, 173);
+    font-size: 1.15em;
+    color: rgb(136, 135, 135);
 }
 .exp-inside a{
-    font-size: .62em;
-    color: rgb(78, 77, 77);
-    font-weight: 200;
+    font-size: .8em;
+    color: rgb(49, 49, 49);
+    font-weight: 400;
 }
 .exp-date{
     font-size: .80em;
